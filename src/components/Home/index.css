@@ -1,0 +1,66 @@
+.light-full-container {
+  background-color: #cccccc;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.Dark-full-container {
+  background-color: #0f0f0f;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.Dark-container {
+  background-color: #231f20;
+  width: 20vw;
+  height: 10px;
+  color: #0f0f0f;
+}
+
+.container {
+  display: flex;
+}
+.Header-class {
+  position: fixed;
+}
+
+.options-class {
+  position: fixed;
+}
+
+.searchStyle {
+  height: 40px;
+  width: 500px;
+  color: #7e858e;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border: 0px #7e858e solid;
+}
+
+.search-container {
+  height: 46px;
+  width: 600px;
+  color: #7e858e;
+  border: 2px #7e858e solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+  background-color: #ffffff;
+  margin: 15px;
+}
+
+.search-logo {
+  height: 35px;
+  width: 35px;
+  padding: 7px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
